@@ -1,0 +1,170 @@
+{
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: 'Amatic SC', cursive;
+  margin: 0;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+h2{
+  font-size: 2.4em;
+}
+h3{
+  font-size: 2em;
+}
+h4{
+  font-size: 1.8em;
+}
+h5{
+  font-size: 1.5em;
+}
+
+.headimage {
+  background-image: url(../images/riverflow.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  padding: 0.8%;
+  height:160px;
+  /*text-align: center;
+  color: white;
+  font-size: 44px;*/
+  opacity: 1;
+}
+
+#mainlogo{
+  position: relative;
+  top: 16%;
+  /*left: 5%;*/
+  font-size: 90px;
+  color: black;
+  z-index: 2;
+}
+
+
+.navbar {
+  background-color: #479027;
+  text-align: center;
+  padding:1%;
+  opacity: 0.8;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 1.5%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.ourhome {
+  background-image: url(../images/ourhome.png);
+  background-position:center -125px;
+  background-repeat:no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
+  height:170px;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.ourveg {
+  background-image: url(../images/vegpatch.png);
+  background-position:center -125px;
+  background-repeat:no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
+  height:170px;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.ourpets {
+  background-image: url(../images/ourpets.png);
+  background-position:center -20px;
+  background-repeat:no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
+  height:170px;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.listitems {
+  background-image: url(../images/jars.png);
+  background-position:center -100px;
+  background-repeat:no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
+  height:170px;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+#ourlist{
+  text-align: center;
+  align-content: center;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #479027;
+  opacity: 0.8;
+}
+
+#topBtn {
+  display: none; /* Hidden by default */
+  position: fixed; 
+  bottom: 60px; 
+  left: 30px; 
+  z-index: 35; 
+  border: none; 
+  outline: none; 
+  background-color: #479027; 
+  color: white; 
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; 
+  border-radius: 5px; 
+  font-family: 'Amatic SC', cursive;
+  font-size: 16px; 
+}
+
+#topBtn:hover {
+  background-color: #555; 
+}
